@@ -1,0 +1,41 @@
+html {
+    font-family: 'M PLUS 1p', sans-serif;
+}
+
+body {
+    background-color: lightskyblue;
+    margin: 0 auto;
+    padding: 0 5%;
+    width: 750px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    margin: 1px;
+}
+
+.bigbutton{
+    padding: 0;
+    margin: 3px;
+    width: 6em;
+    height: 1.5em;
+    color: black;
+    background-color: white;
+    font-size: 1em;
+}
+
+#viewField{
+  text-align: center;
+}
+
+/* マス目 */
+#viewField div input{
+    font-size: 36px;
+    width: 1.2em;
+    height: 1.2em;
+    text-align: center;
+}
